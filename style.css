@@ -1,47 +1,36 @@
-body{
-	font-family: Calibri;	
-	margin: 0px auto;
+body {
+  	font-family: Calibri;
+  	margin: 0px auto;	
+	margin-top: 40px;
 	padding: 0px;
-	width : 800px;
-	position : relative;
+	width : 900px;	
 }
 
-
-#masthead{
-	margin: 0;
-	padding: 10px 0px;
-	border-bottom: 1px solid #cccccc;
-	width: 100%;
+#all {
+	width: 100%; 
+	height: 100%; 
+	overflow: hidden;
 }
 
-#siteName{
-	margin: 0px;
-	padding: 0px 0px 0px 0px;
-	font-size: 20px;
+#headshot {
+	width:220px;
 }
 
-#content{
-	float:right;
-	width: 68%;
-	margin: 0;
-	padding: 0 3% 3% 0;
+#content {
+	margin-left: 240px;
+	
 }
 
-#pagelist {
-	position : absolute;
-	left : 10px;
-	top : 72px;
-	width : 220px;
+#me {
+	width: 220px; 
+	float: left;
 }
 
-#pagelist ul{
-	list-style : none;
+#link {
+	
 }
 
-#lst li {
-	padding : 2px;
 }
-
 a:link,{
 	text-decoration: none;
 	color: blue;
@@ -56,25 +45,20 @@ a:hover {
 	text-decoration: underline;
 }
 
-.feature{
-	padding: 0px 0px 10px 10px;
-}
-
-.feature h3{
-	padding: 15px 0px 5px 0px;
-	text-align: center;
-}
-
-.feature img{
-	float: left;
-	padding: 0px 10px 0px 0px;
-	margin: 0 5px 5px 0;
-}
-
-#me {
-	float: left;
-}
-
-#pagelist a:visited {
+#link a:visited {
   color: blue;
 }
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+p { margin:0 }
+
+
+/*div {
+  border: 2px outset black;
+}*/
